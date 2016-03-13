@@ -1,12 +1,13 @@
-package test.by.bsu.mmf.tuiringmachine;
-
 import org.junit.Assert;
+import org.junit.Test;
 
 /**
  * Created by Сергей on 13.03.2016.
  */
+
 public class TestSample {
-    public static void testFail(){
+    @Test
+    public void testFail(){
         Assert.fail();
     }
 }
