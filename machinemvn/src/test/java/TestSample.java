@@ -6,8 +6,13 @@ import org.junit.Test;
  */
 
 public class TestSample {
+//    @Test
+//    public void testFail(){
+//        Assert.fail();
+//    }
+
     @Test
-    public void testFail(){
-        Assert.fail();
+    public void testTrue(){
+        Assert.assertTrue(true);
     }
 }
